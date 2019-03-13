@@ -2,12 +2,12 @@ version: "3"
 
 services:
   server:
-    build: ./server
+    build: ./redundant-app-server
     restart: always
     ports:
       - "8000:8000"
   client:
-    build: ./client
+    build: ./redundant--app-client
     ports:
       - "3000:3000"
     depends_on:
