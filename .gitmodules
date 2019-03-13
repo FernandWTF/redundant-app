@@ -1,0 +1,3 @@
+[submodule "redundant--app-client"]
+	path = redundant--app-client
+	url = https://github.com/FernandWTF/redundant--app-client
